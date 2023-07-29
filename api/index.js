@@ -66,6 +66,4 @@ app.put("/updatetodo/:id", (req, res) => {
   }
 });
 
-app.listen(5000, () => {
-  console.log("Server is up and running on http://127.0.0.1:5000");
-});
+module.exports = app;
