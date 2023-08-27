@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var todos = [
   {
     id: 1,
-    todo: "Learn Node.js",
+    todo: "Learn Next.js",
     isDone: true,
   },
   {
